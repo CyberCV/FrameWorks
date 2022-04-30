@@ -1,0 +1,23 @@
+Gherkin language
+
+Feature- Each Gherkin file begins with a Feature Keyword
+Background- used to define steps which are common to all the test in
+the feature file
+Scenario- Each test is called a Scenario
+Given - pre condition
+When - actions we need to perform
+And - supporting tag
+Then - expected results
+But - used to add negative comments
+
+Example
+    Feature: Login
+    Scenario: Valid Login
+    Given I navigated to HRMS app
+    When I enter valid username
+    And I enter valid password
+    And I click login button
+    Then I am successfully logged in
+
+
+  What is Framework
